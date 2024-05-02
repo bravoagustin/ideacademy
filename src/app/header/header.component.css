@@ -1,0 +1,66 @@
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 0;
+  }
+  
+  /* Estilos para el encabezado */
+  .header {
+    background-color: #02274b;
+    padding: 0 0;
+  }
+  
+  .logo img {
+    width: 70px;
+    height: 70px;
+    vertical-align: middle;
+    padding: 10px;
+  }
+  
+  .navbar-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+  }
+  
+  .navbar-item {
+    display: inline-block;
+    padding-bottom: 0px;
+  }
+  
+  .navbar-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  .navbar-link:hover {
+    text-decoration: none;
+  }
+
+  .btn-primary {
+    background-color: #525274;
+    color: #e1e5e9;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 10px;
+  }
+  
+  .btn-primary:hover {
+    background-color: #5da1ee;
+    color: #fff;
+  }
+
+  .nav-toggle-btn {
+  background-color: transparent; /* Fondo transparente */
+  border: none; /* Sin borde */
+  cursor: pointer; /* Cursor de puntero */
+  padding: 0; /* Sin relleno */
+}
+
+.nav-toggle-btn ion-icon {
+  font-size: 24px; /* Tamaño de la fuente del icono */
+  color: #fff; /* Color del icono (blanco en este caso) */
+}

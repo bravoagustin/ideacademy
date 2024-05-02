@@ -1,0 +1,32 @@
+<!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">        
+      <nav class="navbar" [ngClass]="isMenuOpen ? 'active' : ''">            <a routerLink="/home" class="logo">
+              <img class="foto" src="../../assets/images/Sin título (2).png" alt="">
+            </a>
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a routerLink="/home"  class="btn btn-primary label-lg navbar-link has-after" routerLinkActive="active">Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a routerLink="/service"  class="btn btn-primary label-lg navbar-link has-after" routerLinkActive="active">Services</a>
+          </li>
+
+          <li class="navbar-item">
+            <a routerLink="/portfolio"  class="btn btn-primary label-lg navbar-link has-after" routerLinkActive="active">Portfolio</a>
+          </li>
+
+          <li class="navbar-item">
+            <a routerLink="/contact"  class="btn btn-primary label-lg navbar-link has-after" routerLinkActive="active">Contact</a>
+          </li>
+        </ul>
+      </nav>
+        <!-- <button class="nav-toggle-btn" aria-label="menu" (click)="toggleMenu()">
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button> -->
+    </div>
+  </header>
